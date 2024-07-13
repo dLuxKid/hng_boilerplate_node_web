@@ -1,4 +1,4 @@
-````markdown
+
 # API and Database Design Documentation
 
 This repository contains the boilerplate for an API and its corresponding database design. It includes user management, admin functionalities, organisation management, widgets, blogs, and notifications.
@@ -150,7 +150,6 @@ Table blogs {
 
 Ref: "Notifications"."notification_id" < "Notifications"."message"
 ```
-````
 
 ## Authentication
 
